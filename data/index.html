@@ -1,0 +1,79 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<style>
+@keyframes beat {
+  from {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(1.1);
+    animation-timing-function: ease-in;
+  }
+  15% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+  25% {
+    transform: scale(1.05);
+    animation-timing-function: ease-in;
+  }
+  35% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+
+body {
+  background: #000 url("love1.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 4em;
+  overflow: hidden;
+}
+
+h1 {
+  line-height: 1.3;
+  margin-bottom: 2em;
+  font-size: 24px;
+  font-style: oblique;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  text-shadow: none;
+}
+a:hover {
+  color: #ed7669;
+}
+
+.heart {
+  font-size: 100px;
+  text-align: center;
+  color: #ea6153;
+  animation: beat 1s infinite;
+}
+
+.fine-print {
+  font-size: 12px;
+}
+</style>
+<body>
+<center><h1>be my Valentine !!!</h1>
+<p class="heart">&hearts;</p>
+</center>
+</body>
+</html>
